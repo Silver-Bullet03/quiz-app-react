@@ -1,0 +1,67 @@
+*{
+    font-family : Georgia, 'Times New Roman', Times, serif ;
+    color : #ffffff;
+    padding:0;
+    margin:0;
+}
+body{
+  background-color : rgb(41, 80, 153);
+  display : flex;
+  align-items : center;
+  justify-content: center;
+  min-height: 90vh;
+  }
+
+.main-cont{
+  background-color : black;
+  height : min-content;
+  width : 450px;
+  min-height : 300px;
+  padding : 20px;
+  border-radius : 15px;
+
+}
+
+.quest-cont{
+  align-items : center;
+  font-size : 22px;
+}
+
+.quest-num{
+  position : relative;
+  top : 10px;
+}
+
+.quest{
+  display : flex;
+  position: relative;
+  top : 20px;
+  margin : 10px auto;
+}
+
+.options{
+  position: relative;
+  margin : 10px auto;
+  top : 40px;
+  align-items : center;
+  justify-content : center;
+  padding : 10px;
+}
+
+.options-cont{
+  position : relative;
+  margin : auto;
+}
+
+button{
+  width : 200px;
+  height : 30px;
+  border-radius : 15px;
+  border : 1px solid rgb(40, 221, 94);
+  color : white;
+  background-color : rgb(33, 172, 86);
+  align-items : center;
+  cursor : pointer;
+  margin : 5px ;
+  font-size : 16px;
+}
