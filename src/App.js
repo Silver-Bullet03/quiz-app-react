@@ -25,7 +25,7 @@ export default function App() {
      },
 
      {
-       question : 'why components are used in react?',
+       question : 'Why components are used in react?',
        options : [
          { answer : 'seperation of concerns',iscorrect : true},
          { answer : 'they look cool' , iscorrect : false},
